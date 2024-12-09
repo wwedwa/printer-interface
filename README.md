@@ -14,7 +14,7 @@ The .printconfig file holds the configurations for the server and client.
 ## Building
 Use the makefile to create executables for both the server and client. The "make" command will build executables for the server and client called printserver and printclient. These will be stored in ./target. The "make" command will also build the object files stored in ./target/obj.
 
-# #Running
+## Running
 These steps assume you are in the root directory of this project. If you are elsewhere, adjust paths accordingly.
 - To run the server, enter the following command into a terminal: ./target/printserver \<port-num\>
 - To run the client, enter the following command into a terminal: ./target/printclient \<ip-addr\> \<port-num\>
