@@ -17,4 +17,4 @@ Use the makefile to create executables for both the server and client. The "make
 ## Running
 These steps assume you are in the root directory of this project. If you are elsewhere, adjust paths accordingly.
 - To run the server, enter the following command into a terminal: ./target/printserver \<port-num\>
-- To run the client, enter the following command into a terminal: ./target/printclient \<ip-addr\> \<port-num\>
+- To run the client, enter the following command into a terminal: ./target/printclient \<ip-addr\> \<port-num\> \<path to file to print\>
