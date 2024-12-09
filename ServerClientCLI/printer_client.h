@@ -7,11 +7,14 @@
 
 class PrinterClient : public TCPSocket {
  public:
-  using TCPSocket::TCPSocket;
+  PrinterClient(int port_num, std::string ip_addr, std::string file_to_print);
 
   void Run();
 
   std::string ReadFile();
+
+ private:
+  std::string file_to_print_;
 };
 
 #endif  // PRINTER_CLIENT_H_
