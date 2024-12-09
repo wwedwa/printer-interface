@@ -20,7 +20,7 @@ These steps assume you are in the root directory of this project. If you are els
 - To run the client, enter the following command into a terminal: ./target/printclient \<ip-addr\> \<port-num\> \<path to file to print\>
 
 ## Disclaimer
-The TCP protocol used by this application IS NOT ENCRYPTED. Do not use this to transfer sensitive information.
+The communication protocol used by this application IS NOT ENCRYPTED.
 
 ## Upcoming Features
 The JavaFX UI for the client to interact with the server is currently being refactored to use the correct communication protocol expected by the server. This will be public shortly.
