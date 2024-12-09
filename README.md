@@ -7,7 +7,7 @@ This is a simple printer interface which includes a server and CLI client. The s
 The server and client rely on POSIX TCP sockets. Thus, they must be run on a Unix-like OS (any flavor of Unix or Mac).
 
 ## Configuration
-The .printconfig file holds the configurations for the server and client.
+The .printconfig file holds the configurations for the server and client. The program expects .printconfig to be located in the user's home directory.
 - TMP_LOCATION is where files transfered to the server temporarily live while they are being printed
 - PRINT_COMMAND stores the command you want to use to print the file. For example "lp -d \<printer_name\> $(TMP_LOCATION)"
 - 
