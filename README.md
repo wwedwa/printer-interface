@@ -1,4 +1,4 @@
-# printer-interface
+# Printer Interface
 
 ## Description
 This is a simple printer interface which includes a server and CLI client. The server acts as a proxy server between client and printer. Together, users can print files from a printer they are not directly connected to through the proxy server. This bypasses frustration often caused by connecting to a printer.
