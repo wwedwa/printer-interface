@@ -18,3 +18,9 @@ Use the makefile to create executables for both the server and client. The "make
 These steps assume you are in the root directory of this project. If you are elsewhere, adjust paths accordingly.
 - To run the server, enter the following command into a terminal: ./target/printserver \<port-num\>
 - To run the client, enter the following command into a terminal: ./target/printclient \<ip-addr\> \<port-num\> \<path to file to print\>
+
+## Disclaimer
+The TCP protocol used by this application IS NOT ENCRYPTED. Do not use this to transfer sensitive information.
+
+## Upcoming Features
+The JavaFX UI for the client to interact with the server is currently being refactored to use the correct communication protocol expected by the server. This will be public shortly.
