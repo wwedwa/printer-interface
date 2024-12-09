@@ -1,0 +1,13 @@
+# CONFIG RULES:
+#    - Do not include leading or trailing whitespace if unnecessary.
+#    - To use variables that you have already defined, wrap them in $()
+#    - The variable's value will be set to the value directly after the
+#      equals sign, ignoring leading and trailing whitespace.
+
+
+# The location that the server will temporarily save a pdf to print
+# before removing it after the printing command is complete
+TMP_LOCATION=/Users/wwall/Programming/Personal/PrinterInterface/tmp/to_print.pdf
+
+# Command used to print the file at the tmp location defined above. i.e lp ...
+PRINT_COMMAND=echo $(TMP_LOCATION)
